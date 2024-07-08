@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#tittle {
+    font-size: 40px;
+    text-align: center;
+    color: #0fe3fb;
+    font-family: Arial;
+    width: 85%;
+    max-width: 700px;
+
+}
+
+#container-ps {
+    display: flex;
+    flex-direction: row;
+    max-width: 670px;
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    position: relative;
+
+}
+
+#user-image-div {
+    display: flex;
+    
+}
+
+#user-image {
+    height: 40px;
+    width: 40px;
+}
+
+#ps-name {
+    font-family: Arial;
+    font-size: 18px;
+    color: #b9b8b8;
+    margin-left: 8px;
+
+}
+
+#ps-wallet {
+    background-color: #1d1d1d;
+    color: #6c6c6c;
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+
+#ps-date {
+    background-color: #1d1d1d;
+    color: #6c6c6c;
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 8px;
+
+}
+
+#ps-text-number {
+    color: #6c6c6c;
+    font-size: 14px;
+    background-color: #1d1d1d;
+    font-family: Arial;
+    padding: 2px 10px 2px 10px;
+    border-radius: 14px;
+    position: absolute;
+    right: 0;
+}
+
+#div-ps {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    right: 44px;
+
+
+}
+
+.images-ps {
+    width: 22px;
+    height: 22px;
+    margin: -3px;
+}
+
+#p-text-upvideo {
+    margin-bottom: -10px;
+    color: #b9b8b8;
+    width: 90%;
+    max-width: 690px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#text-aviso {
+    color: #b9b8b8;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+#container-video {
+    width: 90%; /* Define a largura do contêiner do vídeo como 90% da largura do elemento pai */
+    max-width: 720px; /* Define uma largura máxima para o contêiner do vídeo */
+    aspect-ratio: 16 / 9; /* Mantém a proporção de 16:9 para o vídeo */
+    margin: auto; /* Centraliza o contêiner do vídeo na página */
+    padding: 5px; /* Adiciona um preenchimento de 20px ao redor do contêiner do vídeo */
+    background-color: #0fe3fb; /* Define a cor de fundo do contêiner do vídeo para um cinza claro */
+    border-radius: 5px; /* Arredonda os cantos do contêiner do vídeo */
+    
+}
+
+iframe {
+    width: 100%; /* Faz o iframe preencher completamente a largura do contêiner */
+    height: 100%; /* Faz o iframe preencher completamente a altura do contêiner */
+}
+
+#container-views {
+    display: flex;
+    flex-direction: row;
+    max-width: 720px;
+    width: 90%;
+    height: 35px;
+    align-items: center;
+    position: relative;
+}
+
+#views {
+    color: #6c6c6c;
+    font-size: 15px;
+    background-color: #1d1d1d;
+    font-family: Arial;
+    padding: 2px 10px 2px 10px;
+    border-radius: 14px;
+    position: absolute;
+    right: 0;
+}
+
+
+#p-text-downvideo {
+    margin-bottom: 5px;
+    color: #b9b8b8;
+    width: 90%;
+    max-width: 690px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+#link-materia {
+    font-family: Arial;
+    color: #0fe3fb;
+    text-decoration: none;
+
+}
+
+
+#container-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid #0fe3fb 2px;
+    background-color: black;
+    height: 130px;
+    width: 80%;
+    max-width: 590px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.cp-links {
+    text-decoration: none;
+    color: black;
+    background-color: #0fe3fb;
+    width: 120px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: solid white 2px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.cp-links:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #8434e7;
+    width: 120px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: solid white 2px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+#container-bot-free {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #0fe3fb 2px;
+    background-color: black;
+    height: auto;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+#link-bot {
+    background-color: #0fe3fb;
+    color: black;
+    border: solid 1.5px white;
+    width: 200px;
+    padding: 12px 25px 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 40px;
+}
+
+#link-bot:hover {
+    background-color: #8434e7;
+    color: white;
+    border: solid 1.5px white;
+    width: 200px;
+    padding: 12px 25px 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 40px;
+}
+
+.text-bot-free {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 15px 5px 15px 5px;
+}
+
+#container-bot-pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #0fe3fb 2px;
+    background-color: black;
+    height: 450px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.text-bot-pro {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 15px 5px 15px 5px;
+}
+
+#button-telegram1 {
+    animation-name: pulsante;
+    animation-duration: 0.5s; /* Adicione a unidade de tempo */
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulsante {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.12);
+    }
+}
+
+.support-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.support-button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.support-button img:hover {
+    transform: scale(1.15);
+}
+
+
+/* Smartphones (600px para baixo) */
+
+@media only screen and (max-width: 600px) {
+    #tittle {
+        font-size: 5vw;
+        text-align: center;
+        color: #0fe3fb;
+        font-family: Arial;
+        width: 85%;
+        max-width: 700px;   
+    }
+
+    #container-ps {
+        display: flex;
+        flex-direction: row;
+        max-width: 670px;
+        width: 97%;
+        height: 50px;
+        align-items: center;
+        position: relative;
+    
+    }
+
+    #user-image {
+        height: 30px;
+        width: 30px;
+    }
+
+    #ps-name {
+        font-family: Arial;
+        font-size: 15px;
+        color: #b9b8b8;
+        margin-left: 3px;
+    
+    }
+
+    #ps-wallet {
+        background-color: #1d1d1d;
+        color: #6c6c6c;
+        border-radius: 20px;
+        padding: 2px 5px 2px 5px;
+        font-family: Arial;
+        font-size: 10px;
+        margin-left: 4px;
+    
+    }
+    
+    #ps-date {
+        background-color: #1d1d1d;
+        color: #6c6c6c;
+        border-radius: 20px;
+        padding: 2px 5px 2px 5px;
+        font-family: Arial;
+        font-size: 10px;
+        margin-left: 5.9px;
+    
+    }
+    
+    #ps-text-number {
+        color: #6c6c6c;
+        font-size: 10px;
+        background-color: #1d1d1d;
+        font-family: Arial;
+        padding: 2px 10px 2px 10px;
+        border-radius: 14px;
+        position: absolute;
+        right: 0px;
+    }
+
+    #div-ps {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        right: 34px;
+    
+    
+    }
+    
+    .images-ps {
+        width: 20px;
+        height: 20px;
+        margin: -3px;
+    }
+
+    #p-text-downvideo {
+        margin-bottom: 5px;
+        color: #b9b8b8;
+        width: 90%;
+        max-width: 690px;
+        font-family: Arial;
+        font-size: 15.5px;
+        text-align: center;
+    
+    }
+
+    #container-bot-pro {
+        height: 550px;
+    }
+
+}
